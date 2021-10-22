@@ -1,6 +1,6 @@
 body{
 	background-image: url("images/Bg.jpg");
-	 background-repeat: no-repeat; 
+background-repeat: no-repeat;
 }
 
 .topnav {
@@ -54,7 +54,9 @@ body{
 	width: 200px;
 	border: none;
   }
-
+#display_menu{
+	color: #333;
+}
   .newRow::after {
 	content: "";
 	clear: both;
@@ -70,13 +72,13 @@ body{
 	float: left;
 	width: 80%;
 	padding: 5px;
-	color: honeydew;
+	color:black;
 	font-size: 25px;
 	font-family: cursive;
   }
 
   #add_toppings{
-	 padding-left:30px;
+	padding-left:30px; 
 	width:150px;
 	height:100px;
 	border: none;
@@ -106,7 +108,4 @@ body{
 	color: white;
  }
 
-#im1{
-	width:100px;
-	height: 80px;
-}
+
